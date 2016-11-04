@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
-<?xml-stylesheet ekr_test ?>
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
@@ -20,7 +19,23 @@
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
-<v t="amd.20151216151325.1"><vh>@edit index.html</vh></v>
+<v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
+<v t="amd.20161004083800.1" a="E"><vh>html</vh>
+<v t="amd.20161004083800.2"><vh>head</vh></v>
+<v t="amd.20161004083800.5" a="E"><vh>body</vh>
+<v t="amd.20161004083800.6" a="E"><vh>reveal div</vh>
+<v t="amd.20161004083800.7" a="E"><vh>slides div</vh>
+<v t="amd.20161004095719.1" a="E"><vh>封面投影片</vh>
+<v t="amd.20161004095719.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20161105030706.1" a="E"><vh>小組成員</vh>
+<v t="leo.20161105030706.2"><vh>成員</vh></v>
+</v>
+</v>
+</v>
+</v>
+</v>
+</v>
 <v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
@@ -29,34 +44,14 @@
 <v t="leo.20151212173725.1"><vh>@edit pelicanconf.py</vh></v>
 <v t="amd.20151215170221.1"><vh>以下 local_publishconf.py 為近端所使用的設定</vh></v>
 <v t="leo.20151213085752.1"><vh>@edit local_publishconf.py</vh></v>
-<v t="amd.20151215121740.1"><vh>@path theme</vh>
-<v t="amd.20151215154950.1" a="E"><vh>@path pelican-bootstrap3_local</vh>
-<v t="amd.20151215154950.2" a="E"><vh>@path templates</vh>
-<v t="amd.20151215154950.3"><vh>@edit base.html</vh></v>
-<v t="amd.20151215154950.4"><vh>@edit search.html</vh></v>
-<v t="amd.20151215162536.1" a="E"><vh>@path includes</vh>
-<v t="amd.20151215162510.1"><vh>@edit sidebar.html</vh></v>
-</v>
-<v t="amd.20151215154950.5"><vh>@edit tags.html</vh></v>
-</v>
-</v>
-</v>
-<v t="amd.20151215170326.1"><vh>以下在修改或查驗 plugin 目錄下的檔案</vh></v>
-<v t="amd.20151215154225.1"><vh>@path plugin</vh>
-<v t="amd.20151215154238.1" a="E"><vh>@path tipue_search</vh>
-<v t="amd.20151215154248.1"><vh>@edit tipue_search.py</vh></v>
-</v>
-</v>
-<v t="amd.20160921225004.1"><vh>@edit .gitignore</vh></v>
 </v>
 </v>
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
-<v t="amd.20160727114506.1" a="E"><vh>201609</vh>
-<v t="leo.20161010174437.1"><vh>@edit 20160929.md</vh></v>
-<v t="leo.20161006234714.1"><vh>@edit 20161006.md</vh></v>
+<v t="amd.20160727114506.1" a="E"><vh>201611</vh>
+<v t="amd.20160727120222.1"><vh>@edit 20161105.md</vh></v>
 </v>
 </v>
 </v>
@@ -65,22 +60,19 @@
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
+<v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
+<v t="yen.20161022111056.1"><vh>@button https server</vh></v>
+<v t="yen.20161022151749.1"><vh>產生 .key 與 .crt</vh></v>
 </vnodes>
 <tnodes>
-<t tx="amd.20151215121740.1"></t>
-<t tx="amd.20151215154225.1"></t>
-<t tx="amd.20151215154238.1"></t>
-<t tx="amd.20151215154950.1"></t>
-<t tx="amd.20151215154950.2"></t>
-<t tx="amd.20151215162536.1"></t>
 <t tx="amd.20151215170031.1"></t>
 <t tx="amd.20151215170117.1"></t>
 <t tx="amd.20151215170221.1"></t>
-<t tx="amd.20151215170326.1"></t>
 <t tx="amd.20151215170350.1"></t>
 <t tx="amd.20151215180106.1"></t>
 <t tx="amd.20151216001126.1">@language md
 Title: 文章標題 (請注意各文章的標題不可相同, 比較保險的作法是冠上四個學號尾碼)
+Date: 2016-09-2 12:00
 Category: 類別
 Tags: 標籤
 Author: yen
@@ -96,12 +88,115 @@ Author: yen
 &lt;pre class="brush: python;"&gt;
 print("hello")
 &lt;/pre&gt;</t>
+<t tx="amd.20151216151325.1">@language xml
+@tabwidth -4
+@others
+
+</t>
 <t tx="amd.20160106093454.1"></t>
 <t tx="amd.20160106094754.1"></t>
 <t tx="amd.20160106094829.1"></t>
 <t tx="amd.20160106095324.1"></t>
 <t tx="amd.20160727114506.1"></t>
 <t tx="amd.20160921213353.1"></t>
+<t tx="amd.20161004083800.1">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+@others
+&lt;/html&gt;
+</t>
+<t tx="amd.20161004083800.2">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;    
+2016 Fall 計算機程式課程
+&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+</t>
+<t tx="amd.20161004083800.5">&lt;body&gt;
+@others
+&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/math/math.js', async: true }
+            ]
+        });
+&lt;/script&gt;
+&lt;/body&gt;
+</t>
+<t tx="amd.20161004083800.6">&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+
+</t>
+<t tx="amd.20161004083800.7">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+
+</t>
+<t tx="amd.20161004095719.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="amd.20161004095719.2"># 電腦輔助設計實習
+##2016fallcadpa
+### 第一組 分組倉儲
+
+&lt;small&gt;
+Created by [40223103](http://40223103.github.io/2016fallcadp_hw/blog/index.html)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+
+</t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -208,5 +303,47 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161105030706.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161105030706.2">##組員：
+[40223103](http://40223103.github.io/2016fallcadp_hw/blog/index.html)
+
+[40223109](http://40223109.github.io/2016fallcadp_hw/blog/index.html)
+
+[40423111](http://40423111.github.io/2016fallcadp_hw/blog/index.html)
+
+[40443111](http://40443111.github.io/2016fallcadp_hw/blog/index.html)</t>
+<t tx="yen.20161022111056.1">@language python
+import os
+import subprocess
+import threading
+import http.server, ssl
+
+def domake():
+    # build directory
+    os.chdir("./../")
+    server_address = ('localhost', 5443)
+    httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
+    httpd.socket = ssl.wrap_socket(httpd.socket,
+                                   server_side=True,
+                                   certfile='localhost.crt',
+                                   keyfile='localhost.key',
+                                   ssl_version=ssl.PROTOCOL_TLSv1)
+    print("5443 https server started")
+    httpd.serve_forever()
+
+# 利用執行緒執行 https 伺服器
+make = threading.Thread(target=domake)
+make.start()</t>
+<t tx="yen.20161022151749.1">sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
+
+</t>
 </tnodes>
 </leo_file>

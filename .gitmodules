@@ -1,12 +1,4 @@
-[submodule "40223109"]
-	path = 40223109
-	url = https://github.com/40223109/2016fallcadp_hw.git
-	branch = gh-pages
-[submodule "40443111"]
-	path = 40443111
-	url = https://github.com/40443111/2016fallcadp_hw.git
-	branch = gh-pages
-[submodule "40223103"]
-	path = 40223103
-	url = https://github.com/40223103/2016fallcadp_hw.git
+[submodule "g100"]
+	path = g100
+	url = https://github.com/scrum-1/2016fallcp_ag100
 	branch = gh-pages
