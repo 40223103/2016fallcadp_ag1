@@ -50,6 +50,9 @@
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
+<v t="leo.20170118171336.1" a="E"><vh>201701</vh>
+<v t="leo.20170118171336.2"><vh>@edit 20170118.md</vh></v>
+</v>
 <v t="amd.20160727114506.1" a="E"><vh>201611</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20161105.md</vh></v>
 </v>
@@ -320,6 +323,7 @@ DEFAULT_DATE = 'fs'</t>
 [40423111](http://40423111.github.io/2016fallcadp_hw/blog/index.html)
 
 [40443111](http://40443111.github.io/2016fallcadp_hw/blog/index.html)</t>
+<t tx="leo.20170118171336.1"></t>
 <t tx="yen.20161022111056.1">@language python
 import os
 import subprocess
